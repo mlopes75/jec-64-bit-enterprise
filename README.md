@@ -217,7 +217,7 @@ errados com aparência de resultados certos.
 ### 📊 Onde a divergência existe
 
 | Plataforma | Tipo | Signed? | Ordenação binária fiável? |
-|:---|:---|:---:|:---:|
+| :--- | :--- | :---: | :---: |
 | Solidity / EVM | `uint64` | ❌ | ✅ Sim |
 | Dart | `int` | ✅ | ⚠️ Apenas headers 0–63 |
 | Java / Kotlin | `long` | ✅ | ⚠️ Apenas headers 0–63 |
