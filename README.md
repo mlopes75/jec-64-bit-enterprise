@@ -215,6 +215,7 @@ errados com aparência de resultados certos.
 > "⚠️ Dart/Java/SQL (tipos signed): o vetor canónico acima NÃO caben em um literal decimal de int — o compilador rejeita-o. É a nota dobit 63 em ação. O mesmo valor em signed é -4177467058907877281(ou 0xC606A7D7D4E6705F, que o Dart VM aceita e envolve paranegativo). Para o valor unsigned, use BigInt".
 
 ### 📊 Onde a divergência existe
+
 | Plataforma | Tipo | Signed? | Ordenação binária fiável? |
 |:---|:---|:---:|:---:|
 | Solidity / EVM | `uint64` | ❌ | ✅ Sim |
